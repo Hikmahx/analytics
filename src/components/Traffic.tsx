@@ -2,7 +2,7 @@ import React from "react";
 
 const Traffic = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 lg:p-8 text-lg mt-8 max-w-2xl w-full">
+    <div className="bg-white rounded-lg shadow-md p-4 lg:p-8 text-lg mt-8 max-w-2xl w-full flex-1">
       <div className="flex items-center justify-between mb-4">
         <h2 className="font-bold text-2xl md:text-3xl flex flex-col">
           Traffic
