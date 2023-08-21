@@ -3,15 +3,15 @@ import React from "react";
 const Insights = () => {
   return (
     <div className="bg-white rounded-lg shadow-md p-8 mt-8">
-      <h2 className="font-bold text-3xl md:text-4xl flex flex-col">
+      <h2 className="font-bold text-3xl md:text-4xl flex flex-col mb-6">
         <span className="flex items-center mb-1">ZooTools Insights</span>
         <span className="font-normal text-base md:text-[1.4rem]">
           Making anayltics simple and actionable
         </span>
       </h2>
       <div className="flex items-start flex-col lg:flex-row gap-x-32">
-        <div className="mt-6">
-          <h3 className="font-bold mb-4">Summary</h3>
+        <div className="">
+          <h3 className="font-bold mb-4 lg:text-xl">Summary</h3>
           <div className="">
             <div className="mb-4 flex items-center gap-x-4">
               <div className="bg-[#fd6353] w-9 h-9 p-3 rounded-md">
@@ -184,7 +184,7 @@ const Insights = () => {
           </div>
         </div>
         <div className="font-bold mt-6 lg:mt-0">
-          <h3 className="mb-4">Recommendation</h3>
+          <h3 className="lg:text-xl mb-4">Recommendation</h3>
           <p className="">
             Make sure to promote and{" "}
             <a href="/" className="underline hover:underline-offset-4">

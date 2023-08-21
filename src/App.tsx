@@ -9,7 +9,7 @@ import Traffic from "./components/Traffic";
 
 function App() {
   return (
-    <div className="App font-karla bg-[#f9fafb] min-h-screen px-12 py-16">
+    <div className="App font-karla bg-[#f9fafb] min-h-screen px-6 md:px-8  lg:px-12 py-16">
       <div className="max-w-xl lg:max-w-6xl mx-auto">
         <Header />
         <Graph />

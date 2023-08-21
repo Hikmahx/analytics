@@ -124,7 +124,7 @@ export const data = {
 
 const Graph = () => {
   return (
-    <div className="bg-white rounded-lg shadow-md p-8 font-bold flex flex-col items-start text-lg mt-8">
+    <div className="bg-white rounded-lg shadow-md p-4 lg:p-8 font-bold flex flex-col items-start text-lg mt-8">
       <h2 className="font-bold text-3xl md:text-4xl flex flex-col">
         <span className="flex items-center mb-1">
           100,000
@@ -153,7 +153,7 @@ const Graph = () => {
         </span>
       </h2>
 
-      <div className="bg-white w-full overflow-x-auto rounded-md p-4">
+      <div className="bg-white w-full overflow-x-auto rounded-md lg:p-4">
         <div className=" w-full overflow-x-scroll scroll-smooth whitespace-nowrap">
           <Bar data={data} options={options} />
         </div>
